@@ -518,7 +518,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -625,11 +625,26 @@
     "reuse_designators": true,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "top_level_sheets": [],
-    "used_designators": "",
+    "top_level_sheets": [
+      {
+        "filename": "pcb_card.kicad_sch",
+        "name": "pcb_card",
+        "uuid": "68341586-dc95-4eac-8ad8-2e4cb597fccf"
+      }
+    ],
+    "used_designators": "U1-3,SW1-4,R1-18,JP1,J1-2,D1-111,C1-5,BT1,#PWR1-20",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "68341586-dc95-4eac-8ad8-2e4cb597fccf",
+      "pcb_card"
+    ],
+    [
+      "aac1dc17-9f1b-4de4-ab2c-0d99b6a4be72",
+      "Led Matrix"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
