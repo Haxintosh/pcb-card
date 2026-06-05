@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 6.4,
+          "width": 6.4
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -53,8 +53,59 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|168762500|119887500|b4125e9e-6774-4e5a-bd87-2034d8037258|f94d202f-185b-4e5f-be8f-2fcb0de35a1d",
+          ""
+        ],
+        [
+          "clearance|169262500|121712500|d7deed32-c30e-4d60-bf35-b4a0b71042ab|47499ce2-8fd4-40fb-9a1b-d2ea2e532c7d",
+          ""
+        ],
+        [
+          "clearance|169587500|119262500|86628735-da90-48f3-9019-9716e1fea80f|2e647948-0ca6-4bea-a66a-6f0269b75129",
+          ""
+        ],
+        [
+          "clearance|169762500|121712500|47499ce2-8fd4-40fb-9a1b-d2ea2e532c7d|5411e45a-9404-410d-9442-df2ece5d79c2",
+          ""
+        ],
+        [
+          "clearance|170087500|119262500|14a5534b-a5fe-4396-bbd2-13e248dae6d0|86628735-da90-48f3-9019-9716e1fea80f",
+          ""
+        ],
+        [
+          "clearance|170262500|121712500|5411e45a-9404-410d-9442-df2ece5d79c2|b1e28779-e518-4718-a6f0-9d96dd706413",
+          ""
+        ],
+        [
+          "clearance|170587500|119262500|8bea3f4d-e207-45b6-a731-d01edf3d10a4|14a5534b-a5fe-4396-bbd2-13e248dae6d0",
+          "JLC pad to pad"
+        ],
+        [
+          "clearance|170762500|121712500|b1e28779-e518-4718-a6f0-9d96dd706413|c0270d17-4cea-42e8-a395-479ce46b75c2",
+          ""
+        ],
+        [
+          "clearance|171087500|119262500|37017644-5af8-40e8-b04b-c11308940c3a|8bea3f4d-e207-45b6-a731-d01edf3d10a4",
+          "JLC pad to pad"
+        ],
+        [
+          "clearance|171212500|120212500|671623da-ba87-4416-9ebd-9f4a85aca0c2|e2bf3b35-48c0-4fb7-8cfe-d20bac2832de",
+          ""
+        ],
+        [
+          "clearance|171212500|120712500|f525f80f-ef65-4d3e-8d37-7c890acd3823|671623da-ba87-4416-9ebd-9f4a85aca0c2",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -140,7 +191,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -187,7 +238,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.3
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -214,7 +269,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -508,7 +568,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -632,7 +692,7 @@
         "uuid": "68341586-dc95-4eac-8ad8-2e4cb597fccf"
       }
     ],
-    "used_designators": "U1-3,SW1-4,R1-18,JP1,J1-2,D1-111,C1-5,BT1,#PWR1-20",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

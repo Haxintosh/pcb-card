@@ -44,3 +44,6 @@ fp-info-cache
 
 # Local scripts
 /scripts/
+
+# Production files
+/production/
