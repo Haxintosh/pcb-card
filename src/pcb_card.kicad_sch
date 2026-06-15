@@ -8152,9 +8152,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77d4f38a-9e5e-4c13-aefe-ce024f2bf349")
 		(property "Reference" "TP2"
@@ -8179,7 +8179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 153.67 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8624,9 +8624,9 @@
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board no)
+		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fa6fd20-18d5-4efb-884f-dac2f0783068")
 		(property "Reference" "TP1"
@@ -8651,7 +8651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
 			(at 144.78 161.29 0)
 			(hide yes)
 			(show_name no)
