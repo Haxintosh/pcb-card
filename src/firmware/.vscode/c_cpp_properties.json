@@ -1,0 +1,82 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/geenk/Documents/PCB/pcb-card/src/firmware/include",
+                "/home/geenk/Documents/PCB/pcb-card/src/firmware/src",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/avr",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/ch32",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/ch32/lib",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/USER",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Core",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Debug",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Startup",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Peripheral/inc",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Peripheral/src",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/variants/CH32V00x/CH32V003F4",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/libraries/EEPROM/src",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/libraries/SPI/src",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/libraries/USBPD_SINK/src",
+                "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/geenk/Documents/PCB/pcb-card/src/firmware/include",
+                    "/home/geenk/Documents/PCB/pcb-card/src/firmware/src",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/avr",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/ch32",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/cores/arduino/ch32/lib",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/USER",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Core",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Debug",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Startup",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Peripheral/inc",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/system/CH32V00x/SRC/Peripheral/src",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/variants/CH32V00x/CH32V003F4",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/libraries/EEPROM/src",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/libraries/SPI/src",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/libraries/USBPD_SINK/src",
+                    "/home/geenk/.platformio/packages/framework-arduino-openwch-ch32/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60119",
+                "CH32V003F4",
+                "CH32V00X",
+                "CH32V00x",
+                "CH32V003",
+                "ARDUINO=10808",
+                "ARDUINO_ARCH_CH32V",
+                "ARDUINO_ARCH_CH32",
+                "VARIANT_H=\"variant_CH32V003F4.h\"",
+                "CH32V00x",
+                "NDEBUG",
+                "SYSCLK_FREQ_48MHz_HSI=48000000",
+                "SYSCLK_FREQ_48MHZ_HSI=48000000",
+                ""
+            ],
+            "cStandard": "gnu99",
+            "cppStandard": "gnu++14",
+            "compilerPath": "/home/geenk/.platformio/packages/toolchain-riscv/bin/riscv-wch-elf-gcc",
+            "compilerArgs": [
+                "-march=rv32ecxw",
+                "-mabi=ilp32e",
+                "-msmall-data-limit=8",
+                "-msave-restore",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
